@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Diário da mamãe</title>
+<meta name="description" content="App para anotar a rotina do bebê: mamadas, fraldas, sono, vacinas, remédios e mais.">
+<style>
+  :root { --texto:#34324A; --texto2:#6B6880; --fundo:#F4FAF6; --menta:#357D63; --halo:#DDF1E7; --card:#FFFFFF; }
+  @media (prefers-color-scheme: dark) { :root { --texto:#D6D2E4; --texto2:#8F8BA6; --fundo:#14121C; --menta:#7FBFA3; --halo:#1C2A26; --card:#211E2C; } }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background:var(--fundo); color:var(--texto); line-height:1.6; }
+  main { max-width:720px; margin:0 auto; padding:48px 16px 64px; }
+  .logo { width:120px; height:120px; margin:0 auto 20px; display:block; }
+  h1 { text-align:center; font-size:34px; margin:0 0 8px; }
+  .sub { text-align:center; color:var(--texto2); font-size:18px; margin:0 0 36px; }
+  .card { background:var(--card); border-radius:24px; padding:20px 24px; margin:0 0 16px; }
+  .card h2 { font-size:18px; margin:0 0 6px; color:var(--menta); }
+  .card p { margin:0; color:var(--texto2); }
+  footer { text-align:center; margin-top:36px; color:var(--texto2); font-size:15px; }
+  a { color:var(--menta); font-weight:600; }
+</style>
+</head>
+<body>
+<main>
+  <svg class="logo" viewBox="0 0 120 120" aria-hidden="true">
+    <circle cx="60" cy="60" r="60" fill="#DDF1E7"/>
+    <circle cx="60" cy="52" r="32" fill="#6DB896"/>
+    <path d="M30 68C30 104 44 112 60 112S90 104 90 68Z" fill="#6DB896"/>
+    <path d="M36 82Q60 98 84 82" stroke="#4E9A79" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <circle cx="60" cy="54" r="22" fill="#FCE3D6"/>
+    <path d="M49 54q4 4 8 0M63 54q4 4 8 0" stroke="#34324A" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+    <circle cx="46" cy="61" r="3.5" fill="#F6B8A8"/><circle cx="74" cy="61" r="3.5" fill="#F6B8A8"/>
+    <path d="M57 64q3 2.5 6 0" stroke="#34324A" stroke-width="2" fill="none" stroke-linecap="round"/>
+  </svg>
+  <h1>Diário da mamãe</h1>
+  <p class="sub">Anote a rotina do bebê sem complicação.</p>
+
+  <div class="card"><h2>Registro rápido</h2><p>Mamadas, fraldas, sono, mamadeira e temperatura em poucos toques, inclusive de madrugada, com modo noturno.</p></div>
+  <div class="card"><h2>Saúde organizada</h2><p>Vacinas, remédios com lembretes, crescimento e uma agenda de consultas. Tudo cadastrado por você.</p></div>
+  <div class="card"><h2>Para o pediatra</h2><p>Resumos com gráficos e um relatório em PDF para levar à consulta.</p></div>
+  <div class="card"><h2>Seus dados são seus</h2><p>Funciona sem internet. Os registros ficam no seu celular e, se você quiser, numa pasta privada do seu próprio Google Drive. Não existe servidor do app. O app é gratuito, com pequenos anúncios que nunca recebem os seus registros.</p></div>
+
+  <footer>
+    <p><a href="privacidade.html">Política de privacidade</a></p>
+    <p>O Diário da mamãe organiza o que a família registra. Não substitui avaliação médica.</p>
+  </footer>
+</main>
+</body>
+</html>
